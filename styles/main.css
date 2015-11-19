@@ -113,7 +113,7 @@
 }
 
 .block__shapes-para--left {
-	width: 60px;
+	width: 20%;
 	height: 40px;
 	position: absolute;
 		top: 55%;
@@ -123,7 +123,7 @@
 }
 
 .block__shapes-para--right {
-	width: 60px;
+	width: 20%;
 	height: 40px;
 	position: absolute;
 		top: 22%;
@@ -133,41 +133,41 @@
 }
 
 .block__shapes-circle {
-	width: 50px;		
-	height: 50px;
+	width: 20%;		
+	height: 70px;
 	position: absolute;
-		top: 305px;
-		left: 85px;
+		top: 34%;
+		right: 15%;
 	border-radius: 50%;
 	background-color: #00A0B0;
 }
 
 .block__shapes-cirle--half {
+	width: 30%;
+	height: 55px;
 	position: absolute;
-	top: 385px;
-	left: 35px;
-	height: 40px;
-	width: 80px;
+		top: 52%;
+		right: 12%;
 	border-radius: 80px 80px 0 0;
 	background-color: #3B45A6;
 }
 
 .block__shapes-quart--left {
+	width: 20%;
+	height: 55px;
 	position: absolute;
-	top: 455px;
-	left: 5px;
-	height: 40px;
-	width: 40px;
+		bottom: 20%;
+		left: 12%;
 	border-radius: 80px 0 0 0;
 	background-color: #FB5A69;
 }
 
 .block__shapes-quart--right {
+	width: 20%;
+	height: 70px;
 	position: absolute;
-	top: 525px;
-	left: 5px;
-	height: 40px;
-	width: 40px;
+		bottom: 22%;
+		right: 15%;
 	border-radius: 0 80px 0 0;
 	background-color: #5CD465;
 }
