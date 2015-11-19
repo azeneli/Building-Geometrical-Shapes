@@ -10,10 +10,9 @@
 		snapTolerance: 13,
 	});
 	
-
-
+	// fades title
 	$('.blocks__canvas').on('mouseover', function () {
-		$('.block__canvas-title').fadeOut('slow');
+		$('.blocks__canvas-title').fadeOut('slow');
 	});
 
 
