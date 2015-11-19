@@ -62,7 +62,7 @@
 
 /*************  Shapes  ****************/
 
-.block__shapes-box {
+.blocks__shapes-box {
 	width: 20%;
 	height: 75px;
 	background-color: #fff;
@@ -71,7 +71,7 @@
 		right: 12%;
 }	
 
-.block__shapes-rectangle {
+.blocks__shapes-rectangle {
 	width: 30%;
 	height: 50px;
 	background-color: purple;
@@ -81,7 +81,7 @@
 }
 
 
-.block__shapes-triangle--up {
+.blocks__shapes-triangle--up {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -92,7 +92,7 @@
 	border-right: 40px solid transparent;
 }
 
-.block__shapes-triangle--left {
+.blocks__shapes-triangle--left {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -102,7 +102,7 @@
 	border-right: 60px solid transparent;
 }
 
-.block__shapes-triangle--right {
+.blocks__shapes-triangle--right {
 	width: 0;
 	height: 0;
 	position: absolute;
@@ -112,7 +112,7 @@
 	border-left: 60px solid transparent;
 }
 
-.block__shapes-para--left {
+.blocks__shapes-para--left {
 	width: 20%;
 	height: 40px;
 	position: absolute;
@@ -122,7 +122,7 @@
 	transform: skew(25deg);
 }
 
-.block__shapes-para--right {
+.blocks__shapes-para--right {
 	width: 20%;
 	height: 40px;
 	position: absolute;
@@ -132,7 +132,7 @@
 	transform: skew(-25deg);
 }
 
-.block__shapes-circle {
+.blocks__shapes-circle {
 	width: 20%;		
 	height: 70px;
 	position: absolute;
@@ -142,7 +142,7 @@
 	background-color: #00A0B0;
 }
 
-.block__shapes-cirle--half {
+.blocks__shapes-cirle--half {
 	width: 30%;
 	height: 55px;
 	position: absolute;
@@ -152,7 +152,7 @@
 	background-color: #3B45A6;
 }
 
-.block__shapes-quart--left {
+.blocks__shapes-quart--left {
 	width: 20%;
 	height: 55px;
 	position: absolute;
@@ -162,7 +162,7 @@
 	background-color: #FB5A69;
 }
 
-.block__shapes-quart--right {
+.blocks__shapes-quart--right {
 	width: 20%;
 	height: 70px;
 	position: absolute;
@@ -172,7 +172,12 @@
 	background-color: #5CD465;
 }
 
-
+.blocks__canvas-title {
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	margin: 12% auto;
+}
 
 
 
