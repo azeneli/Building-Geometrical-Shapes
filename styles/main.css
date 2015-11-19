@@ -64,10 +64,117 @@
 
 .block__shapes-box {
 	width: 20%;
-	height: 25px;
+	height: 75px;
 	background-color: #fff;
 	position: absolute;
 		top: 3%;
-		left: 4%;
+		right: 12%;
 }	
+
+.block__shapes-rectangle {
+	width: 30%;
+	height: 50px;
+	background-color: purple;
+	position: absolute;
+		top: 3%;
+		left: 10%;
+}
+
+
+.block__shapes-triangle--up {
+	width: 0;
+	height: 0;
+	position: absolute;
+		top: 15%;
+		left: 12%;
+	border-bottom: 50px solid #EDC951;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+.block__shapes-triangle--left {
+	width: 0;
+	height: 0;
+	position: absolute;
+		top: 28%;
+		left: 15%;
+	border-bottom: 60px solid #7F9D39;
+	border-right: 60px solid transparent;
+}
+
+.block__shapes-triangle--right {
+	width: 0;
+	height: 0;
+	position: absolute;
+		top: 40%;
+		left: 15%;
+	border-bottom: 60px solid #676690;
+	border-left: 60px solid transparent;
+}
+
+.block__shapes-para--left {
+	width: 60px;
+	height: 40px;
+	position: absolute;
+		top: 55%;
+		left: 15%;
+	background-color: #D48317;
+	transform: skew(25deg);
+}
+
+.block__shapes-para--right {
+	width: 60px;
+	height: 40px;
+	position: absolute;
+		top: 22%;
+		right: 15%;
+	background-color: #452159;
+	transform: skew(-25deg);
+}
+
+.block__shapes-circle {
+	width: 50px;		
+	height: 50px;
+	position: absolute;
+		top: 305px;
+		left: 85px;
+	border-radius: 50%;
+	background-color: #00A0B0;
+}
+
+.block__shapes-cirle--half {
+	position: absolute;
+	top: 385px;
+	left: 35px;
+	height: 40px;
+	width: 80px;
+	border-radius: 80px 80px 0 0;
+	background-color: #3B45A6;
+}
+
+.block__shapes-quart--left {
+	position: absolute;
+	top: 455px;
+	left: 5px;
+	height: 40px;
+	width: 40px;
+	border-radius: 80px 0 0 0;
+	background-color: #FB5A69;
+}
+
+.block__shapes-quart--right {
+	position: absolute;
+	top: 525px;
+	left: 5px;
+	height: 40px;
+	width: 40px;
+	border-radius: 0 80px 0 0;
+	background-color: #5CD465;
+}
+
+
+
+
+
+
 
