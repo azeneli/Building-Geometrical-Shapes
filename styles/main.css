@@ -1,5 +1,32 @@
 /* CURRENTLY IN: styles/main.css */
 
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
 /*  COLORS 
 *   #4EC094 
 *   #7bb7fa
@@ -9,4 +36,38 @@
 *   #1E2E3E
 */
 
+* {
+	box-sizing: border-box;
+}
+
+.blocks {
+	width: 100%;
+	height: auto;
+}
+
+.blocks__shapes {
+	width: 30%;
+	height: 605px;
+	float: left;
+	background-color: #7bb7fa;
+	position: relative;	
+}
+
+.blocks__canvas {
+	width: 70%;
+	height: 605px;
+	float: left;
+	background-color: #D1625B;
+}
+
+/*************  Shapes  ****************/
+
+.block__shapes-box {
+	width: 20%;
+	height: 25px;
+	background-color: #fff;
+	position: absolute;
+		top: 3%;
+		left: 4%;
+}	
 
